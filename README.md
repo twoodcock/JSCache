@@ -23,7 +23,6 @@ cache = new Cache({size: 10});
 keyProperties = {list: "value", of: "value", keys: "value"};
 cache.put(keyProperties, payload);
 samePayload = cache.get(keyProperties);
-);
 ```
 
 With key attributes:
@@ -34,7 +33,6 @@ keyProperties1 = {list: "value", of: "value", keys: "value"};
 keyProperties2 = {list: "value", of: "value", keys: "value"};
 cache.put(keyProperties1, payload);
 samePayload = cache.get(keyProperties2);
-);
 ```
 
 ## Key Attributes, Why?
